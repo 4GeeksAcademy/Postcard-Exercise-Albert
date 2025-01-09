@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.head{
+    display: flex;
+    padding: 8px;
+    height: 50px;
+}
+
+#html {
+    width: 35px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 8px;
+  }
+
+.name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 0;
+    height: 50px;
+}
+
+.name p{
+    margin: 0px;
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 8px;
+}
+
+#lion{
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 8px;
+}
+
+.hearts{
+    margin: 16px 0px 0px 8px;
+    gap:8px;
+}
+
+.save{
+    margin: 16px 16px 0px 0px
+}
+
+.text{
+    display: flex;
+    margin: 0px 16px 0px 16px;
+    flex-direction: column;
+    padding-bottom: 28px;
+}
+
+.text p{
+    margin: 0;
+    margin-top: 20px;
+}
+
+i{
+    font-size: 28px;
+    margin-left: 8px
+}
+
+i:active{
+    color:red;
+}
+
+h4{
+    margin: 0px;
+}
